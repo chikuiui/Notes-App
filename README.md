@@ -1,6 +1,6 @@
 # NoteTakingApp 
 
-This App is used to store,update the notes having Title and Description in Room Database and showing in the form of Staggered Manner.
+This App demonstrates modern Android development with Coroutines, LiveData, Jetpack(Room, ViewModel) and Material Design based on MVVM Architecture.
 
 
 ## Key Components of this App
@@ -13,6 +13,20 @@ This App is used to store,update the notes having Title and Description in Room 
 * DataBinding
 * CardView
 * RecyclerView
+
+## Tech stack & Open-source libraries
+- Minimum SDK level 26
+- [Kotlin](https://kotlinlang.org/)
+  - Lifecycle: Observe Android lifecycles and handle UI states upon the lifecycle changes.
+  - ViewModel: Manages UI-related data holder and lifecycle aware. Allows data to survive configuration changes such as screen rotations.
+  - DataBinding: Binds UI components in your layouts to data sources in your app using a declarative format rather than programmatically.
+  - Room: Constructs Database by providing an abstraction layer over SQLite to allow fluent database access.
+  - Navigation Component Graphs - To use single activity multiple fragment architecture.
+  - [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) For asynchronous programming.
+- Architecture
+  - MVVM Architecture (View - DataBinding - ViewModel - Model)
+  - Repository Pattern
+- [Material-Components](https://github.com/material-components/material-components-android): Material design components for CardView.
 
 ### ScreenShots
 
